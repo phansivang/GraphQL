@@ -1,4 +1,4 @@
-# GrpahQL
+# NodeQL
 
 This project demonstrates a simple standalone GraphQL setup that does not rely on Node.js or any frameworks. It uses TypeScript as the programming language and Sequelize as the database for handling CREATE, UPDATE, DELETE, and Query operations using default GraphQL queries and mutations.
 

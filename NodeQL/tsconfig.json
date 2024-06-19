@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "rootDirs": [
+      "src"
+    ],
+    "outDir": "dist",
+    "lib": [
+      "es2020"
+    ],
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ],
+      "@common": [
+        "src/common"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@model/*": [
+        "src/model/*"
+      ]
+    },
+    "baseUrl": "./"
+  }
+}
